@@ -8,10 +8,25 @@ function Footer() {
   <footer className="footer py-4">
     <div className="container">
       <div className="row align-items-center">
-        <div className="col-lg-4 text-lg-start">Copyright © jpz.com.ar 2026</div>
+        <div className="col-lg-4 text-lg-start">Copyright © Stutz Wines 2026</div>
         <div className="col-lg-4 my-3 my-lg-0">
-          <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i className="fab fa-twitter" /></a>
-          <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i className="fab fa-facebook-f" /></a>
+          {/* <a className="btn btn-dark btn-social mx-2"   href="https://www.instagram.com/stutzvinos" aria-label="Twitter"><i className="fab fa-twitter" /></a> */}
+          <a
+            className="btn btn-dark btn-social mx-2"
+            href="https://www.instagram.com/stutzvinos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i className="fab fa-instagram" />
+          </a>
+          <a
+            className="btn btn-dark btn-social mx-2"
+            href="https://www.facebook.com/profile.php?id=100057151611833"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook">
+              <i className="fab fa-facebook-f" /></a>
         </div>
         <div className="col-lg-4 text-lg-end">
           <a className="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -33,7 +48,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/1.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>
@@ -68,7 +83,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/2.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>
@@ -103,7 +118,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/3.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>
@@ -138,7 +153,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/4.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>
@@ -173,7 +188,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/5.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>
@@ -208,7 +223,7 @@ function Footer() {
                 {/* Project details*/}
                 <h2 className="text-uppercase">Project Name</h2>
                 <p className="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img className="img-fluid d-block mx-auto" src="assets/img/ourwines/6.jpg" alt="..." />
+                <img className="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul className="list-inline">
                   <li>

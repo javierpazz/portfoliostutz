@@ -11,7 +11,43 @@ function Home() {
         <h2 className="section-heading text-uppercase">Our wines</h2>
         <h3 className="section-subheading  text-uppercase">Wines from Cafayate that tell the story of their land
         </h3>
-        <img className="img-fluid mb-4" src="assets/img/about/vinos.webp" alt="..." />
+
+
+            <div id="wineCarousel" className="carousel slide mb-4" data-bs-ride="carousel">
+              
+              <div className="carousel-indicators">
+                <button type="button" data-bs-target="#wineCarousel" data-bs-slide-to="0" className="active"></button>
+                <button type="button" data-bs-target="#wineCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#wineCarousel" data-bs-slide-to="2"></button>
+              </div>
+
+              <div className="carousel-inner">
+
+                <div className="carousel-item active">
+                  <img src="./assets/img/about/vinos1.webp" className="d-block w-100" alt="Wine 1" />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="./assets/img/about/vinos2.webp" className="d-block w-100" alt="Wine 2" />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="./assets/img/about/vinos3.webp" className="d-block w-100" alt="Wine 3" />
+                </div>
+
+              </div>
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#wineCarousel" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+
+              <button className="carousel-control-next" type="button" data-bs-target="#wineCarousel" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+
+            </div>
+
+
         <img className="img-fluid" src="assets/img/about/frasevinos-eng.png" alt="..." />
 
 
@@ -165,14 +201,14 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d447.97026215387433!2d
                   </h3>
 
                   <div >
-                    <div className="mt-4">
+                    <div className="section-subheading mt-4">
                       <GoogleBookingButton />
                     </div>
                   </div>
 
 
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 mt-4">
 
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d447.97026215387433!2d-65.9736281301801!3d-26.07405932474481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941f31ba750d6c5d%3A0x309ad6d4866939ae!2sVinos%20Stutz!5e0!3m2!1sen!2sar!4v1771886804735!5m2!1sen!2sar"
