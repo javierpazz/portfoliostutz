@@ -159,6 +159,15 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d447.97026215387433!2d
             <div className="row align-items-stretch mb-5">
               <div className="col-md-6">
 
+                    <a
+                      href="https://wa.me/5493815707891?text=Hi%20I%20would%20like%20to%20book%20a%20meeting"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="whatsapp-float"
+                    >
+                      <i className="bi bi-whatsapp"></i>
+                    </a>
+
                   <h3 className="section-subheading" style={{ color: "#ece9e2" }} >
                     Whatsapp..:&nbsp;&nbsp;&nbsp;
                     <a
