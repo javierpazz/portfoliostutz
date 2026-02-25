@@ -48,18 +48,18 @@ function Home() {
             </div>
 
 
-        <img className="img-fluid" src="assets/img/about/frasevinos-eng.png" alt="..." />
+        <img className="img-fluid" src="assets/img/about/frasevinos-eng.jpg" alt="..." />
 
 
     <div className="container mt-4">
       <div className="row text-center">
 
         <div className="col-md-6">
-        <img className="img-fluid mb-4" src="assets/img/about/copavino-eng.png" alt="..." />
+        <img className="img-fluid mb-4" src="assets/img/about/copavino-eng.jpg" alt="..." />
         </div>
 
         <div className="col-md-6">
-        <img className="img-fluid mb-4" src="assets/img/about/vinosvarietal-eng.png" alt="..." />
+        <img className="img-fluid mb-4" src="assets/img/about/vinosvarietal-eng.jpg" alt="..." />
         </div>
 
       </div>
@@ -86,7 +86,7 @@ function Home() {
           <br />Por último, pero no menos importante, en honor a las nuevas generaciones, al cambio, a las ideas frescas y renovadas; creamos un blend como combinación de los tres varietales tintos. El popurrí justo que nos brindan las uvas en todo su esplendor.<br />
         </h3>
         <h2 className="section-heading text-uppercase">We are</h2>
-          <img className="img-fluid mb-4" src="assets/img/about/familia.jpeg" alt="..." />
+          <img className="img-fluid mb-4" src="assets/img/about/familia.jpg" alt="..." />
         <h3 className="section-subheading"><br />Finca La Chimpeña está ubicada a unos kilómetros de la ciudad de Cafayate (Salta). Allí donde el sol siempre está expectante, atento, intacto; pero nunca solo: la brisa lo acompaña firme, constante. La combinación exacta y excepcional que hace del producto de nuestra tierra y esfuerzo una fruta de calidad única, sin la necesidad de interferir en el proceso natural con la aplicación de agroquímicos.<br />
           <br />El trabajo en armonía con la naturaleza y el cuidado del medio ambiente nos permitieron iniciar la certificación orgánica de nuestro terroir en junio de 2015.<br />
           <br />Porque creemos en lo que hacemos, los vinos STUTZ son elaborados exclusivamente con uvas de producción propia, asegurando que el vino que llega a la copa, esa misma compartida en familia o con amigos, sea de calidad y excelencia.<br />
