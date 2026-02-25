@@ -38,7 +38,7 @@ export default function GoogleBookingButton(): JSX.Element {
       if (window.calendar && buttonRef.current) {
         window.calendar.schedulingButton.load({
           url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ3N3aqxjrl-RxOlAsyjdLrJgPB6c_nplJSnaaXi5vnXvPFCwSJMqUSml4NN3j4Klyn6-71hQW7p?gv=true",
-          color: "#D81B60",
+          color: "#ffc800",
           label: "Book an appointment",
           target: buttonRef.current,
         });
